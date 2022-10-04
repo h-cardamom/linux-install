@@ -41,6 +41,28 @@ or
 
 <br>
 
+**.tar.gz files:**
+
+*Extract in current directory:*
+
+	tar -xvzf file.tar.gz
+
+<br>
+
+*Extract in an arbitrary directory:*
+
+	tar -xvzf file.tar.gz -C /home/user/Desktop
+	
+<br>
+
+- -x --extract : extract files from archive
+- -v --verbose: verbosely list files processed
+- -z --gzip: decompress archive using gzip
+- -f --file: specifies the file
+- -C --directory: change to arbitarary directory
+
+<br>
+
 ### 2. Mount .iso file
 
 the outcome of extraction is normally a .iso file which needs to be mounted as a drive.
